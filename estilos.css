@@ -1,0 +1,90 @@
+/* LOGIN Y CONTACTO */
+
+body{
+   
+    background-color: rgb(223, 222, 222); 
+}
+
+/* FORMULARIO DE LOGIN */
+
+#login{
+    margin-top: 100px;
+    max-width: 600px;
+    display: flex;
+    justify-content: center;
+    align-content: center; 
+    margin-left: 250px;
+    margin-right: auto;
+  
+}
+
+h4{
+    margin-top: 15px;
+}
+
+#botones{
+    margin-top: 15px;
+}
+
+/* FORMULARIO DE CONTACTO 👇 */
+
+#contacto{
+    
+    margin-top: 50px;
+    max-width: 550px;
+    padding: 15px;
+    border-radius: 10px;
+     
+}
+.form-label{
+    color: white;
+}
+#newsletter{
+    color: white;
+}
+#button{
+    margin: 15px;
+}
+label{
+    padding-bottom: 3px;
+}
+
+/* FORMULARIO DE CONTACTO 👆 */
+
+
+/* MODAL CARRITO DE COMPRAS 👇 */
+#carrito{
+    width: 60%;
+    position: absolute;
+    z-index: 9;
+    top:100px;
+    margin-left: 300px;
+    margin-right: auto;
+    display: none;      
+}
+
+#close{
+    text-align: right;
+}
+/* CARRITO DE COMPRAS 👆 */
+
+
+/* APP CLIMA */
+#clima{
+    position: absolute;
+    z-index: 9;
+    top:100px;
+    margin-right: auto;
+    margin-left: 80%;
+    color: white;
+    background-color: rgba(8, 8, 8, 40%);
+}
+
+
+/* PIE DE PAGINA */
+a{
+    color: rgb(107, 107, 107);
+    text-decoration: none;
+   
+   
+}
