@@ -38,7 +38,7 @@
           </li>
         </ul>
 
-        <button type="button" class="btn btn-dark" id="verCarrito"></button>
+        <button type="button" class="btn btn-dark" id="verCarrito">🛒</button>
 
 
       </div>
@@ -58,7 +58,7 @@
 
   <!-- Carrito -->
   <div class="container" id="carrito">
-
+    <div class="row row-cols-1 row-cols-md-3 g-4">
 
     <table class="table table-dark">
       <thead>
@@ -86,8 +86,41 @@
       </tfoot>
     </table>
 
-
   </div>
+  </div>
+<!--   FIN CARRITO -->
+
+
+<!-- FINALIZACION DE LA COMPRA -->
+
+  <!-- INICIO DE FORMULARIO -->
+
+  
+    <div class="row " id="finalizacion">
+    <header><h4 id="gracias">Gracias por su compra!</h4></header>
+      <br>
+    <div class="col" id="listado">
+        
+    
+
+    </div>
+    <br>
+    <br>
+    <h6 id="totalCompra"></h6>
+    <br>
+    <br>
+    
+    <div class="text-center">
+      <button type="button" class="btn btn-outline-success" style="max-width: 70px;" id="ok">Ok</button>
+    </div>
+    
+    </div>
+
+   
+
+
+<!-- HASTA ACA FINALIZACION DE LA COMPRA -->
+
 
 
 
@@ -141,11 +174,12 @@
 
 
   <!-- SE INICIALIZA SWEETALERT ANTES DEL LINK A ARCHIVO JAVASCRIPT -->
-  <script src="sweetalert2.all.min.js"></script>
+  
+  <!-- <script src="sweetalert2.all.min.js"></script> -->
 
   <script src="javascript/equipos.js"></script>
   <script src="javascript/carrito.js"></script>
-
+  
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
     crossorigin="anonymous"></script>

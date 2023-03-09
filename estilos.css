@@ -9,13 +9,11 @@ body{
 
 #login{
     margin-top: 100px;
-    max-width: 600px;
+    max-width: 30rem;
     display: flex;
-    justify-content: center;
-    align-content: center; 
-    margin-left: 250px;
+    margin-left: auto; 
     margin-right: auto;
-  
+      
 }
 
 h4{
@@ -54,13 +52,21 @@ label{
 
 /* MODAL CARRITO DE COMPRAS 👇 */
 #carrito{
-    width: 60%;
+    max-width: 60%;
     position: absolute;
     z-index: 9;
     top:100px;
-    margin-left: 300px;
+    margin-left: 20%;
     margin-right: auto;
-    display: none;      
+    display: none;     
+}
+
+@media only screen and (max-width: 770px)  {#carrito{
+    width: 100%;
+    margin-left: 0px;
+    margin-right: auto;
+  
+}
 }
 
 #close{
@@ -79,12 +85,45 @@ label{
     color: white;
     background-color: rgba(8, 8, 8, 40%);
 }
+@media only screen and (max-width: 770px)  {#clima{
+    margin-right: auto;
+    margin-left: 55%;
+}
+}
 
 
 /* PIE DE PAGINA */
 a{
-    color: rgb(107, 107, 107);
-    text-decoration: none;
-   
-   
+    color: rgb(184, 190, 180);
+    text-decoration: none;   
+}
+a  :hover{
+    color: black;
+}
+
+/* FINAL DE LA COMPRA */
+#finalizacion{
+    padding: 5rem;
+    color: white;
+    background-color: rgb(3, 3, 3);
+    position: absolute;
+    z-index: 10;
+    top:100px;
+    margin-right: auto; 
+    margin-left: 25rem;
+    border: solid 3px;
+    border-color: rgb(46, 128, 66);
+    border-radius: 5%;
+    display: none;
+}
+@media only screen and (max-width: 770px)  {#finalizacion{
+    max-width: 30rem;
+    padding: 1rem;
+    margin-left: 0px;
+    margin-right: auto;
+  
+}
+}
+#gracias{
+    text-align: center;
 }
